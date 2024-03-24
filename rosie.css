@@ -1,0 +1,255 @@
+/* call backs + whole pg base styles */
+        body{
+            font: 8.5pt verdana;
+            color:#666;
+            background-color: antiquewhite;
+            background: url('stitch_bg.png')fixed;
+        }
+        @font-face{
+            font-family: LoKinderSchrift;
+            src: url(LOKISD__.TTF);
+        }
+        
+/* positioning + boxes that hold things */
+        #top{
+            width:80%;
+            text-align: center;
+            margin:5% auto 7px;
+        }
+        #container{
+                width:80%;
+                height:auto;
+                margin: 2% auto 10%;
+        }
+        .txt, .txt2{
+            margin: 0 auto 0;
+            border-radius: 10px;
+            padding:15px;
+            background: #fff;
+            border:1px solid #e8cfa9;
+            line-height: 20px;
+        }
+        .txt{
+            width:650px;
+        }
+        .txt2{
+            width:650px;
+            height:auto;
+            margin-bottom:30px;
+        }
+        .cdt{
+            bottom:10px;
+            position:fixed;
+            font-size:6pt;
+            text-align:center;
+            width:30px;
+            overflow:hidden;
+            transition:1s;
+        }
+        .cdt:hover{
+            width:250px;
+            transition:1s;
+            background: rgb(255,255,255, 0.7)
+        }
+        .cdt table{
+            width:250px!important;
+        }
+        .clearfix{
+            overflow:auto;
+        }
+        .mini{
+            width:400px;
+            font-size:6.5pt;
+            text-align:justify;
+            line-height:15px;
+            margin:auto;
+        }
+        .center{
+            text-align:center;
+        }
+/* text styles */
+        h1{
+            font-family: LoKinderSchrift, georgia;
+            color:#754f2e;
+            text-shadow: 3px 7px #e8cfa9;
+            text-transform:uppercase;
+            text-align:center;
+            margin:0 auto 20px;
+            font-size: 66pt;
+            letter-spacing: 10px;
+        }
+        h2{
+            font-family: LoKinderSchrift, georgia;
+            color: #754f2e;
+            display:inline;
+            font-size:25pt;
+            letter-spacing:5px;
+        }
+        h3{
+            color:#754f2e;
+            display:inline;
+            font-size:16pt;
+        }
+      #top a{
+            display:inline-block;
+            margin:3px 7px;
+            padding:5px 7px;
+            color:#fff;
+            width:110px;
+            text-decoration:none;
+            text-align: center;
+            letter-spacing:3px;
+            font-family: LokinderSchrift;
+            font-size: 15pt;
+            border-radius: 15px;
+        }
+        #top a:hover{
+            background-color:#754f2e!important;
+            color:#e8cfa9;
+        }
+        #top a:hover, h1:hover{
+            transform: rotateZ(-5deg);
+        }
+        .nv{
+            background-color: indianred;
+        }
+        .nv2{
+            background-color: royalblue;
+        }
+        .nv3{
+            background-color: gold;
+        }
+        a{
+            font-weight:bold;
+            color: #754f2e;
+            text-decoration: underline;
+        }
+        a:hover{
+            color:#000;
+        }
+        u{
+            color:indianred;
+            font-weight:bold;
+            text-decoration:none;
+        }
+        b{
+            color:goldenrod;
+        }
+        strong{
+            display:inline;
+            color:royalblue;
+        }    
+        p{
+            text-indent: 20px;
+            margin-top:-2px;
+        }
+        sub{
+            font-size:6pt;
+        }
+        ul > li {
+            margin-left: -30px;
+        }
+        i{
+            text-align:center;
+        }
+/* image styles */
+        #profile{
+            height:300px;
+            width:auto;
+            border:5px solid #fff;
+            border-radius: 100%;
+            margin: 5px auto 15px;
+        }
+        #profile:hover{
+            transform: rotateZ(5deg);
+        }
+        #txtpx{
+            height:250px;
+            width:auto;
+            margin: 0 0 10px 7px;
+            border:5px solid #e8cfa9;
+            border-radius: 15px;
+            display:inline;
+            float:right;
+        }
+        .px2{
+            height:200px;
+            width:auto;
+            margin:10px auto 3px;
+            border: 3px solid #e8cfa9;
+            border-radius: 15px;
+            display:inline-block;
+        }
+        #map{
+            width:500px;
+            border:3px solid #e8cfa9;
+            border-radius:15px;
+            margin-bottom:10px;
+        }
+        #images-wrapper {    
+           line-height: 0;       
+            -webkit-column-count: 5;    
+            -webkit-column-gap: 0px;    
+            -moz-column-count: 5;
+            -moz-column-gap: 0px;
+             column-count: 3;    
+             column-gap: 10px;  
+            margin:auto;
+        }  
+        #images-wrapper img {    
+           width: 100% !important;    
+           height: auto !important;
+            border-radius: 10px;
+            padding:5px;
+            transition:0.5s;
+        }
+        #images-wrapper img:hover{
+            opacity:0.5;
+            transition:0.5s;
+        }
+        #images-wrapper{    
+           display:inline-block;    
+           margin-right: auto;    
+           margin-left: auto;  
+        }
+/* tables and such */
+        #prsn{
+            width:520px;
+            border-spacing: 0;
+            margin:auto;
+        }
+        #prsn2{
+            width:600px;
+            font-size:7.5pt;
+            border-spacing:0;
+            margin:auto;
+        }
+        #prsn td{
+            width:225px;
+            padding: 0 4px;
+            vertical-align: top;
+        }
+        #prsn2 td{
+            width:200px;
+            vertical-align: top;
+            padding: 0 4px;
+        }
+        #prsn_title, #prsn_title2, #prsn_title3{
+            text-align:center;
+            font-weight:bold;
+            font-family: LoKinderSchrift, georgia;
+            font-size:20px;
+            letter-spacing:3px;
+            border:none!important;
+            color:#fff;
+            padding:4px!important;
+        }
+        #prsn_title{
+            background-color: indianred;
+        }
+        #prsn_title2{
+            background-color: royalblue;
+        }
+        #prsn_title3{
+            background-color: gold;
+        }
